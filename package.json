@@ -5,7 +5,8 @@
   "main": "./lib/sort.js",
   "scripts": {
     "test": "ava --tap",
-    "lint": "eslint ./lib"
+    "lint": "eslint ./lib",
+    "beautify": "js-beautify ./lib/*.js -r"
   },
   "repository": {
     "type": "git",
