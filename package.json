@@ -1,10 +1,10 @@
 {
-  "name": "ljz",
+  "name": "ljzjs",
   "version": "1.0.0",
   "description": "javascript sort function",
   "main": "./lib/sort.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava --tap"
   },
   "repository": {
     "type": "git",
