@@ -1,0 +1,15 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "eqeqeq": [2, "allow-null"],
+    "indent": ["error", 2],
+    "keyword-spacing": [2, {"before": true, "after": true, "overrides": {}}],
+    "curly": ["error", "multi"]
+  }
+}

@@ -4,7 +4,8 @@
   "description": "javascript sort function",
   "main": "./lib/sort.js",
   "scripts": {
-    "test": "ava --tap"
+    "test": "ava --tap",
+    "lint": "eslint ./lib"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/Tate-fan/ljzjs#readme",
   "devDependencies": {
-    "ava": "^0.19.1"
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0"
   }
 }

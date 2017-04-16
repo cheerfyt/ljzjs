@@ -43,3 +43,8 @@ test
 ```bash
 $ npm test
 ```
+
+TODO
+====
+- more sort function, quick sort ...
+- Data Structure
