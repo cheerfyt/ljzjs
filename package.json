@@ -1,0 +1,28 @@
+{
+  "name": "ljz",
+  "version": "1.0.0",
+  "description": "javascript sort function",
+  "main": "./lib/sort.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tate-fan/ljzjs.git"
+  },
+  "keywords": [
+    "js",
+    "bubble",
+    "insert",
+    "sort"
+  ],
+  "author": "YT <tate_fan@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tate-fan/ljzjs/issues"
+  },
+  "homepage": "https://github.com/Tate-fan/ljzjs#readme",
+  "devDependencies": {
+    "ava": "^0.19.1"
+  }
+}
