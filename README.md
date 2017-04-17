@@ -7,8 +7,9 @@ usage
 =====
 
 ```bash
-$ var bubble = require("ljzjs").bubbleSort;
-$ var insert = require("ljzjs").insertSort;
+
+$ var bubble = require("ljz").bubbleSort;
+$ var insert = require("ljz").insertSort;
 $ var arr = [1, 4, 2, 7, 9, 6, 5, 10, 3, 100, 102, 101, 23, 34, 45, 43, 32, 4];
 $ console.log("bubble => ", bubble(arr));
 $ console.log("insert => ", insert(arr));
@@ -21,6 +22,7 @@ $ insert => [ 1, 2, 3, 4, 4, 5, 6, 7, 9, 10, 23, 32, 34, 43, 45, 100, 101, 102 ]
 
 cost
 =====
+
 ```bash
 $ console.time('bubble');
 $ bubble(arr);
@@ -40,11 +42,12 @@ $ bubble: 0.404ms
 
 test
 ====
+
 ```bash
 $ npm test
 ```
 
+
 TODO
 ====
-- more sort function, quick sort ...
-- Data Structure
+- more sort function, quick sort, shell sort ...
