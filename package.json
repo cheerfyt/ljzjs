@@ -1,12 +1,12 @@
 {
-  "name": "ljzjs",
+  "name": "ljz",
   "version": "1.0.0",
   "description": "javascript sort function",
-  "main": "./lib/sort.js",
+  "main": "index.js",
   "scripts": {
     "test": "ava --tap",
-    "lint": "eslint ./lib",
-    "beautify": "js-beautify ./lib/*.js -r"
+    "lint": "eslint ./index.js",
+    "beautify": "js-beautify index.js -r"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/Tate-fan/ljzjs#readme",
   "devDependencies": {
     "ava": "^0.19.1",
-    "eslint": "^3.19.0"
+    "eslint": "^3.19.0",
+    "js-beautify": "^1.6.12"
   }
 }

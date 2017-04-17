@@ -1,6 +1,6 @@
 'use strict';
 
-const sort = require("../lib/sort");
+const sort = require("..");
 const {test} = require("ava");
 
 const bubble = sort.bubbleSort;
