@@ -4,7 +4,6 @@
 
 - [ljzjs](#ljzjs)
 - [usage](#usage)
-- [cost](#cost)
 - [test](#test)
 - [TODO](#todo)
 
@@ -30,26 +29,6 @@ $ console.log("insert => ", insert(arr));
 ```bash
 $ bubble => [ 1, 2, 3, 4, 4, 5, 6, 7, 9, 10, 23, 32, 34, 43, 45, 100, 101, 102 ]
 $ insert => [ 1, 2, 3, 4, 4, 5, 6, 7, 9, 10, 23, 32, 34, 43, 45, 100, 101, 102 ]
-```
-
-cost
-=====
-
-```bash
-$ console.time('bubble');
-$ bubble(arr);
-$ console.timeEnd('bubble');
-```
-
-```bash
-$ console.time('insert');
-$ insert(arr);
-$ console.timeEnd('insert');
-```
-
-```bash
-$ insert: 8.349ms
-$ bubble: 0.404ms
 ```
 
 test
