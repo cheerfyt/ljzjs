@@ -77,7 +77,8 @@ exports.bubbleSort = function(arr, comp) {
 exports.quickSort = function quickSort(arr, comp) {
   var len = arr.length;
   if (len <= 1) return arr.slice(0);
-  if (typeof comp !== 'function') comp = compare
+  if (typeof comp !== 'function') comp = compare;
+
   var left = [];
   var right = [];
   var mid = [arr[0]];
