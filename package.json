@@ -1,6 +1,6 @@
 {
   "name": "ljz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "javascript sort function",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "js",
     "bubble",
     "insert",
+    "quick",
     "sort"
   ],
   "author": "YT <tate_fan@163.com>",

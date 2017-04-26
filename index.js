@@ -70,3 +70,21 @@ exports.bubbleSort = function(arr, comp) {
   }
   return arr_d;
 }
+
+/**!
+ * @desc quick sort; wiki: https://en.wikipedia.org/wiki/Quicksort
+ */
+exports.quickSort = function quickSort(arr, comp) {
+  var len = arr.length;
+  if (len <= 1) return arr.slice(0);
+  if (typeof comp !== 'function') comp = compare
+  var left = [];
+  var right = [];
+  var mid = [arr[0]];
+
+  for (var i = 1; i < len; i++) {
+    if (comp(arr[i], mid[0]) < 0) left.push(arr[i])
+    else right.push(arr[i]);
+  }
+  return quickSort(left).concat(mid.concat(quickSort(right)));
+}
