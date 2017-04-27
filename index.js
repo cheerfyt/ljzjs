@@ -72,7 +72,8 @@ exports.bubbleSort = function(arr, comp) {
 }
 
 /**!
- * @desc quick sort; wiki: https://en.wikipedia.org/wiki/Quicksort
+ * @desc quick sort;
+ * wiki: https://en.wikipedia.org/wiki/Quicksort
  */
 exports.quickSort = function quickSort(arr, comp) {
   var len = arr.length;
@@ -89,3 +90,25 @@ exports.quickSort = function quickSort(arr, comp) {
   }
   return quickSort(left).concat(mid.concat(quickSort(right)));
 }
+
+/**!
+ * @desc shell sort;
+ * wiki: https://en.wikipedia.org/wiki/Shellsort
+ */
+
+exports.shellSort = function shellSort(arr, comp) {
+  var gap, i, j, temp;
+  if (!Array.isArray(arr) || arr.length < 2) return arr;
+  var arr_d = cp_arr(arr);
+  if (typeof comp !== 'function') comp = compare;
+
+  for (gap = arr_d.length >> 1; gap > 0; gap >>= 1) {
+    for (i = gap; i < arr_d.length; i++) {
+      temp = arr_d[i];
+      for (j = i - gap; j >= 0 && arr_d[j] > temp; j -= gap)
+        arr_d[j + gap] = arr_d[j];
+      arr_d[j + gap] = temp;
+    }
+  }
+  return arr_d;
+};
