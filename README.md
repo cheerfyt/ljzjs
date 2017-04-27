@@ -12,7 +12,7 @@
 ljzjs
 =====
 
-[![Build Status](https://travis-ci.org/ljzjs/ljzjs.svg?branch=master)](https://travis-ci.org/ljzjs/ljzjs)
+[![Build Status](https://travis-ci.org/Tate-fan/ljzjs.svg?branch=master)](https://travis-ci.org/ljzjs/ljzjs)
 
 javascript sort function, include bubble sort, insert sort, quick sort
 
@@ -22,7 +22,6 @@ usage
 
 ```javascript
 'use strict';
-
 var bubble = require("ljz").bubbleSort;
 var insert = require("ljz").insertSort;
 var quick  = require("ljz").quickSort;
