@@ -12,6 +12,8 @@
 ljzjs
 =====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cheerfyt/ljzjs.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/Tate-fan/ljzjs.svg?branch=master)](https://travis-ci.org/ljzjs/ljzjs)
 
 javascript sort function, include bubble sort, insert sort, quick sort
